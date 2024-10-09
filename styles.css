@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-blue: #4bb5ff;
+  --primary-pink: #ff68a5;
+  --light-pink: #ffeaea;
+  --very-light-pink: #fff9f9;
+  --text-black: #212121;
+  --text-grey: #746868;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 1.4;
+  font-style: normal;
+}
+
+hr {
+  background-color: white;
+  height: 2px;
+  border: none;
+}
+/* How It works section*/
+.how-heading h1 {
+  font-size: 65px;
+}
+.how-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20em;
+  padding: 10px;
+
+  h1 {
+    color: var(--primary-blue);
+    font-size: 108px;
+  }
+}
+.how-it-works {
+  padding-bottom: 20px;
+  padding: 20px;
+}
+.how-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+/* Trusted by section */
+.trusted-by {
+  padding-bottom: 20px;
+  padding: 30px;
+}
+
+.trust-div {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+.trust-img img {
+  width: 768px;
+  height: 48px;
+}
+
+/* testimony section */
+.test {
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 140px;
+    height: 140px;
+    border-radius: 300px;
+  }
+}
+.test-1 {
+  background-color: var(--light-pink);
+  padding: 20px;
+  width: 50%;
+}
+.test-2 {
+  background-color: var(--very-light-pink);
+}
+
+/* footer section */
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+.upper-side {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+.left-hand-side {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+.lower-side-content ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  list-style-type: none;
+}
+/* Utility Classes*/
+.container-lg {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.cont-vsm {
+  max-height: 300px;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.bg-light-pink {
+  background-color: var(--light-pink);
+}
+.bg-primary-pink {
+  background-color: var(--primary-pink);
+}
+.bg-very-light-pink {
+  background-color: var(--very-light-pink);
+}
+.text-black {
+  color: var(--text-black);
+}
+.text-grey {
+  color: var(--text-grey);
+}
+.text-m {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.text-l {
+  font-size: 1.8em;
+  font-weight: 400;
+}
